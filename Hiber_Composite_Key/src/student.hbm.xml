@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.Student" table="student01">
+		<composite-id>
+			<key-property name="id"></key-property>
+			<key-property name="rollNo"></key-property>
+		</composite-id>
+		<property name="name" column="name"></property>
+	</class>
+</hibernate-mapping>
